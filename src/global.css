@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased bg-base-background text-base-text;
+  }
+
+  body,
+  input,
+  textarea,
+  button {
+    @apply font-body font-normal text-base leading-[160%];
+  }
+}
