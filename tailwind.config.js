@@ -19,6 +19,9 @@ export default {
       fontFamily: {
         body: ["Nunito"],
       },
+      backgroundImage: {
+        "background-header": "url('/bg-header.png')",
+      },
     },
   },
   plugins: [],
