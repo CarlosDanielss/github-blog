@@ -1,3 +1,5 @@
+import { Input } from "../../components/input";
+
 export function PostFilter() {
   return (
     <form>
@@ -12,11 +14,7 @@ export function PostFilter() {
         <span className="text-sm text-base-span">6 publicações</span>
       </div>
 
-      <input
-        type="text"
-        placeholder="Buscar conteúdo"
-        className="text-md w-full rounded-md border-[1px] border-base-border bg-base-input px-4 py-3 outline-none placeholder:text-base-label focus:border-blue"
-      />
+      <Input type="text" placeholder="Buscar conteúdo" />
     </form>
   );
 }
