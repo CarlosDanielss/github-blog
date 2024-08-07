@@ -8,7 +8,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export function Profile() {
   return (
-    <div className="flex gap-8 rounded-[10px] bg-base-profile px-10 py-8 shadow-md">
+    <div className="mt-[-88px] flex gap-8 rounded-[10px] bg-base-profile px-10 py-8 shadow-md">
       <img
         src="https://www.agendartecultura.com.br/wp-content/uploads/2022/12/meneson.jpg"
         className="h-[148px] w-[148px] rounded-lg object-cover"
@@ -28,10 +28,10 @@ export function Profile() {
 
           <a
             href="#"
-            className="absolute right-0 top-1 flex items-center gap-2 text-xs font-bold text-blue hover:underline"
+            className="absolute right-0 top-1 flex items-center gap-2 text-xs font-bold uppercase text-blue hover:underline"
           >
             {" "}
-            GITHUB
+            github
             <FontAwesomeIcon
               icon={faArrowUpRightFromSquare}
               className="h-3 w-3"
